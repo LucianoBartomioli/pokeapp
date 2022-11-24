@@ -5,9 +5,6 @@ import  NoFavorites from '../../components/pokemon/NoFavorites';
 import { localFavorites } from '../../utils';
 
 
-
-
-
 const FavoritosPage = () => {
 
 
