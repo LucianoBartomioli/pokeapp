@@ -23,5 +23,5 @@ const pokemons = () => {
 export default {
     toggleFavoritos,
     existInFavorites,
-    pokemons
+    pokemons,
 }
