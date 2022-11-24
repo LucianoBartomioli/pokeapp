@@ -20,7 +20,7 @@ const FavoritosPage = () => {
     }, [])
     
 
-
+    console.log("favoritePokemons",favoritePokemons);
     return (
          <Layout title="Favoritos">
          {
