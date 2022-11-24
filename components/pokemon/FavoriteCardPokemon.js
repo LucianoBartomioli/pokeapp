@@ -17,6 +17,8 @@ console.log(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/po
             <Card.Image
             src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`}
             alt="h"
+            width= {100}
+            height={100}
             />
         </Card>
 
