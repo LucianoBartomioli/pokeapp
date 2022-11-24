@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Layout from '../../components/layout/Layout';
-import FavoritePokemons from '../../components/pokemon/FavoritePokemons';
-import NoFavorites from '../../components/pokemon/NoFavorites';
+import {FavoritePokemons} from '../../components/pokemon/FavoritePokemons';
+import { NoFavorites} from '../../components/pokemon/NoFavorites';
 import { localFavorites } from '../../utils';
 
 
