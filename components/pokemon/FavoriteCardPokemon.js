@@ -10,7 +10,7 @@ const FavoriteCardPokemon = ({pokemonId}) => {
         router.push(`/name/${pokemonId}`)
 
     }
-
+console.log(`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemonId}.png`)
   return (
     <Grid xs={6} sm={3} md={2} key={pokemonId} onClick={onFavoriteClicked}>
         <Card isHoverable isPressable>
