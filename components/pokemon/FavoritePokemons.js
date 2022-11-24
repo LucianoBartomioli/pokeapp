@@ -9,9 +9,9 @@ const FavoritePokemons = ({pokemons}) => {
   console.log("pokemons",pokemons)
   return (
     <Grid.Container>
-        {pokemons.map((id) => {
+        {pokemons.map((id) => (
                 <FavoriteCardPokemon key={id} pokemonId={id}/>
-            }
+           )
             )}
     </Grid.Container>
   )
