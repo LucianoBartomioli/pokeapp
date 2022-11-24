@@ -6,6 +6,7 @@ import FavoriteCardPokemon from "./FavoriteCardPokemon";
 
 
 const FavoritePokemons = ({pokemons}) => {
+  console.log("pokemons",pokemons)
   return (
     <Grid.Container>
         {pokemons.map((id) => {
